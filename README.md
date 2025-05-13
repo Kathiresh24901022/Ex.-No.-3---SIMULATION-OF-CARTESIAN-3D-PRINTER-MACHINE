@@ -1,69 +1,54 @@
-# Ex. No. 5 - SIMULATION-OF-CARTESIAN-3D-PRINTER-MACHINE
+# Ex. No. 3 - PROTOTYPE PART MODEL DESIGN IN 3D PRINTER
 
-## AIM:
-### To simulate the construction of cartesian 3D printer and to get in-depth knowledge of mechatronics of cartesian 3D printers.
-
-![image](https://github.com/Sellakumar1987/Ex.-No.-3---SIMULATION-OF-CARTESIAN-3D-PRINTER-MACHINE/assets/113594316/69572917-1257-45d7-bf57-ff48a6e5a711)
+## AIM: 
+### To prototype the given part model design in 3D Printer.
 
 ## REQUIREMENTS:
+### ●	3D Printer machine.
+### ●	CURA 4.0 Software.
+### ●	Autodesk Fusion 360 Software.
 ### ●	System - Windows 7 or higher, 1 GB RAM.
 
 ## PROCEDURE:
-### For X-Axis Assembly
-###   1.	Select X-Axis Assembly from the visible list.
-###   2.	All the parts related to X-Axis will be shown on the screen.
-###   3.	Select the parts in sequence in which they are shown.
-###   4.	When the first part is selected then it will open in the blank space in the left side of the screen.
-###   5.	Further, when the correct part will be selected then it will get assembled with the previously selected part/parts.
-###   6.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
 
-## For Y-Axis Assembly
-###   1.	Select Y-Axis Assembly from the visible list.
-###   2.	All the parts related to Y-Axis will be shown on the screen.
-###   3.	Select the parts in sequence in which they are shown.
-###   4.	When the first part is selected then it will open in the blank space in the left side of the screen.
-###   5.	Further, when the correct part will be selected then it will get assembled with the previously selected part/parts.
-###   6.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
+### Step 1:- Check all Electrical connections.
 
-## For Z-Axis Assembly
-###   1.	Select Z-Axis Assembly from the visible list.
-###   2.	All the parts related to Z-Axis will be shown on the screen.
-###   3.	Select the parts in sequence in which they are shown.
-###   4.	When the first part is selected then it will open in the blank space in the left side of the screen.
-###   5.	Further, when the correct part will be selected then it will get assembled with the previously selected part/parts.
-###   6.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
+### Step 2:- First we install the software related the 3D printer (idea maker, ultimaker etc.)In idea maker first open the software and click the open file option as shown in below figure.
 
-## For Complete-Axis Assembly
-###   1.	Select Complete-Axis Assembly from the visible list.
-###   2.	All the parts related to Complete-Axis will be shown on the screen.
-###   3.	Select the parts in sequence in which they are shown.
-###   4.	When the first part is selected then it will open in the blank space in the left side of the screen.
-###   5.	Further, when the correct part will be selected then it will get assembled with the previously selected part/parts.
-###   6.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/059ab4e7-f3fb-49a9-ba8e-12bdd082abef)
 
-## Playing with Axes
-###   1.	Move the x-axis slider or enter the value (within the given range) in the given text box and press/select ENTER. Now observe the movement of the x-axis assembly.
-###   2.	Move the y-axis slider or enter the value (within the given range) in the given text box and press/select ENTER. Now observe the movement of the y-axis assembly.
-###   3.	Move the z-axis slider or enter the value (within the given range) in the given text box and press/select ENTER. Now observe the movement of the z-axis assembly.
+### Step 3:- select the Pan option and select the extruder (left of right) for printing the design and then after select the Repair option for auto correction of design of software parameter as shown in below figure.
 
-## Expected Output:
-![image](https://github.com/Sellakumar1987/Ex.-No.-3---SIMULATION-OF-CARTESIAN-3D-PRINTER-MACHINE/assets/113594316/e00b82b4-9aff-400f-9c57-288254dc3cd2)
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/835c55fd-6195-4d73-9f5c-4af36f5a4cce)
+
+### Step 4.:- select the Move option for design print position in build tack plate and then after select the Rotate option for rotate the design easily printed and used low print material as shown in below figure.
+
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/8736080c-f421-4dd0-bae8-860df6f3583e)
+
+### Step 5.:- select the Scale option for design scale according to build plate area and then after click the start option and select printing option standard as shown in below figure.
+
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/98458892-2f68-4de0-bec7-24959ec598fa)
+
+### Step 6.:- After completing all settings then click the Slice option and export the file in gcode format.
+
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/f4b8b55e-6cb2-46a7-b42c-180bc5e68668)
+
+![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/eafa933a-7e03-4f73-930d-75fb28d48716)
+
+### Step 7.:- After generating the gcode format then follow the these instruction as shown in below figure.
+###   1.	Switch on the 3d printer.
+###   2.	Place your Pen drive in USB.
+###   3.	Clean the surface bed plate.
+###   4.	Load filament into the required extruder as per the requirement.
+###   5.	Wait until the nozzle & bed plate comes into the required temperature.
+###   6.	Close the doors of the 3d printer.
+###   7.	Open the file from the USB storage and select the Print option.
 
 ## Output:
-### X Axis Assembly
-![Screenshot 2024-10-14 235002](https://github.com/user-attachments/assets/251c280d-5977-43fb-bc0a-55018323aa9c)
-### Y Axis Assembly
-![Screenshot 2024-10-15 000155](https://github.com/user-attachments/assets/8eaa23c5-a28b-4907-b305-eb717ef49d76)
-### Z Axis Assembly
-![Screenshot 2024-10-16 222141](https://github.com/user-attachments/assets/bb04bab9-99d0-4e4d-b9f8-b9e4b45fa465)
-### Completed Assembly
-![Screenshot 2024-10-16 221937](https://github.com/user-attachments/assets/6c3c625a-81d4-4592-9764-0310d72d356b)
-### Playing with Axis
-![Screenshot 2024-10-14 230413](https://github.com/user-attachments/assets/17ee0936-43af-4480-a5e4-5a4bd8562d64)
-
-
+![image](https://github.com/user-attachments/assets/657f8ef3-1656-4387-b8ae-a9f58536cc23)
 ### Name: KATHIRESH M
 ### Register Number: 212224240073
 
-## Result: 
-### Thus the simulation on construction of cartesian 3D printer is completed & movement of axis along X, Y, & Z has been studied.
+## RESULT:
+###   Thus a prototype of the given part model is developed using 3D Printer.
+
